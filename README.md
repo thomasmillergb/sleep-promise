@@ -11,7 +11,7 @@ _sleep-promise_ resolves a promise after a specified delay.
 ## Usage async / await
 
 ```javascript
-import sleep from 'sleep-promise';
+import * as sleep from 'sleep-promise';
 
 (async () => {
     await sleep(2000);
